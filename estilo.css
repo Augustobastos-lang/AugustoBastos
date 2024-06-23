@@ -242,7 +242,12 @@ video{
 }
 
 .ancora img{
-    height: 5px;
-    width: 5px;
     align-items: right;
+}
+
+.link{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin-left: 150px;
 }
