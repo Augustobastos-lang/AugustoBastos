@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <title>Contato</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="img/foto010.jpeg">
+    <script type="text/javascript">
+     function zero(){
+         var nome = form1.nome.value;
+         var data = form1.data.value;
+         var nota = form1.nota.value;
+         var gmail = form1.gmail.value;
+         
+         if(nome ==""){
+             alert("Preencha com o seu nome");
+             form1.nome.focus();
+             return false;
+         }
+        
+                 
+         if(data ==""){
+             alert("Coloque a data");
+             form1.data.focus();
+             return false;
+         }
+         
+         if(gmail ==""){
+             alert("Coloque o seu Email");
+             form1.gmail.focus();
+             return false;
+         }
+         
+         if(nota =="Selecione uma nota"){
+             alert("Selecione a nota");
+             form1.nota.focus();
+             return false;
+         }
+               
+     
+     }
+    </script>
+</head>
+<body>
+    <div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li>Livro
+                    <ul>
+                        <li>O Homem que calculava
+                            <ul>
+                                <li><a href="hist.html">História do livro</a></li>
+                                <li><a href="proeres.html">Problemas e resoluções</a></li>
+                                <li><a href="luga.html">Lugares de compra</a></li><li><a href="fontes.html">Fontes</a>                                      
+                                    </li>
+                            </ul>
+                        </li>                   
+                    </ul>
+                </li>
+                <li><a href="cont.html">Contato</a></li>        
+            </ul>
+        </nav>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h3 class="font5">Deixe seu comentário!!!</h3>
+    <form class="center3" name="form1" action="rec.html" method="get">
+        Nome: <input type="text" name="nome" placeholder="Coloque seu nome"><br><br>
+        Data: <input type="date" name="data"><br><br>
+        Email: <input type="email" name="gmail" placeholder="Coloque seu email"><br><br>
+        Escolha uma nota de 0 a 5:
+        <select name="nota">
+            <option>Selecione uma nota</option>
+            <option>0</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select><br><br>
+        Algum comentário?:<br>
+        <textarea name="comentario" cols="25" rows="15"></textarea><br><br>
+        <input type="submit" value="Enviar" onclick="return zero()">
+        <input type="reset" value="Limpar">
+    </form>
+    <br><br><br><br><br><br><br>
+    <div align="right">
+            <a href="#"><img width="50"height="50" src="img/foto9.png"></a>
+         </div>
+    <br><hr>
+    <h5 class="center">Augusto Bastos-2024© Todos os direitos reservados<br> Trabalho acadêmico sem fins lucrativos</h5>
+</body>
+</html>
