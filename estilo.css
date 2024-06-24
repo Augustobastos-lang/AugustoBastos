@@ -87,7 +87,7 @@ body {
 }
 
 .container2{
-    margin-left: 180px;
+    margin-left: 50px;
 }
 
 .container2 img{
@@ -121,7 +121,7 @@ body {
 }
 
 .center2{
-    margin-left: 850px;
+    margin-left: 650px;
     display: inline-block;
     justify-content: center;
     font-family: 'Times New Roman', Times, serif;
@@ -129,7 +129,7 @@ body {
 }
 
 .center3{
-    margin-left: 800px;
+    margin-left: 575px;
     display: inline-block;
     justify-content: center;
     font-family: 'Times New Roman', Times, serif;
@@ -137,10 +137,8 @@ body {
     border: 3px solid black;
 }
 
-}
-
-.center2 textarea{
-    resize: none;
+.center4{
+	margin-left: 325px;
 }
 
 .font{
@@ -163,13 +161,13 @@ body {
 .font4{
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
-    margin-left: 300px;
+    margin-left: 450px;
 }
 
 .font5{
     font-family: 'Times New Roman', Times, serif;
     font-size: 60px;
-    margin-left: 650px;
+    margin-left: 475px;
 }
 
 textarea{
@@ -213,16 +211,12 @@ textarea{
     color: white;
 }
 
-.th, td{
-   padding: 0px 65px;
-}
-
 .teste th, td {
-   padding: 65px 65px 65px 65px;
+   padding: 35px 35px 35px 35px;
 }
 
 .titulo{
-    margin-left: 260px;
+    margin-left: 280px;
     color: white;
     font-size: 30px;
     margin-top: -10px;
